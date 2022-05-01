@@ -1,0 +1,17 @@
+.box_search{
+    border: 0px;
+    outline: none;
+    background-color: #ebebeb;
+    padding-left:2%;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.search_box{
+    background-color: #ebebeb;
+    padding: 2%;
+    width: 70%;
+    display: flex;
+    justify-content: baseline;
+    border-radius: 1rem;
+}

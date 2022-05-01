@@ -1,0 +1,18 @@
+.button_send {
+    padding: 9px 14px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    background: var(--bg-blue);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_send:hover {
+    cursor: pointer;
+}
+
+.icon_send_message {
+    width: 25px;
+}

@@ -1,0 +1,136 @@
+.header {
+    background: #FFFF;
+}
+
+.center_nav_bar {
+    max-width: var(--max-width-container);
+    margin: auto;
+    /* height: 54px; */
+    padding: 15px 20px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+.nav_login {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.username_header {
+    font-family: var(--font-1);
+    color: var(--gray-text-2);
+}
+
+.simbol_alert {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #FFFF;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.link_header_login {
+    text-decoration: none;
+    color: var(--bg-blue);
+    font-family: 'coco gothic';
+}
+
+.or_nav_login {
+    font-family: 'coco gothic';
+    color: var(--gray-text-3);
+}
+
+/* Nav bar header */
+.nav_bar_header {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.scroll_nav_bar {
+    overflow-y: auto;
+}
+
+.info_nav_bar_user {
+    padding: 25px;
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.034);
+}
+
+.options_nav {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.034);
+}
+
+.notifications_nav {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.034);
+}
+
+.info_user_profile_nav_bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.username_nav_bar {
+    color: var(--gray-text-2);
+    font-family: var(--font-1);
+    font-size: 18px;
+}
+
+.email_nav_bar {
+    color: var(--gray-text-3);
+    font-size: 13px;
+} 
+
+.notifications {
+    padding: 10px 25px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link_notification {
+    text-decoration: none;
+}
+
+.option_logout {
+    /* width: 100%; */
+    /* align-self: flex-start; */
+}
+
+.ocult_nav_bar {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.ocult_popup {
+    position: fixed;
+    z-index: -1;
+    background: rgba(192, 192, 192, 0.534);
+    width: 100vw;
+    height: 100vh;
+}
+
+@media screen and (max-width: 480px) {
+    .username_header {
+        display: none;
+    }
+
+}

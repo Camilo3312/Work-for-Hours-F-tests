@@ -1,0 +1,21 @@
+.info_nav_bar_notifications {
+    display: flex;
+    gap: 10px;
+}
+
+.info_nav_bar_notification {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.username_nav_bar_notification {
+    font-family: var(--font-1);
+    color: var(--gray-text-2);
+}
+
+.message_nav_bar_notification {
+    font-family: var(--font-1);
+    color: var(--gray-text-3);
+    font-size: 13px;
+}

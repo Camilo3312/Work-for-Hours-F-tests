@@ -1,0 +1,42 @@
+.center_dashboard {
+    max-width: var(--max-width-container);
+    margin: 1em auto;
+    padding: 20px;
+
+    display: flex;
+    gap: 20px;
+}
+
+.aside_operations_dashboard {
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title_dasboard {
+    padding: 20px;
+}
+
+.title_dashboard_info {
+    font-family: var(--font-1);
+    color: var(--gray-text-1);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.operations_dashboard {
+    padding: 10px 0 0 0;
+}
+
+.main_dashboard {
+    width: 80%;
+    padding: 30px;
+}
+
+.padding_button_service_add {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 20px 20px;
+}

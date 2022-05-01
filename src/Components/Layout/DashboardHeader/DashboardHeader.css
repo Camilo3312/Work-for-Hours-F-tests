@@ -1,0 +1,12 @@
+.dashboard_header{
+    background-color: #ebebeb;
+    margin: 2% 0%;
+    padding: 1%;
+    padding-left: 2%;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 5% 14% 14% 15% 18% 13% 13%;
+    align-items: center;
+    gap: 1%;
+    color: #848484;
+}

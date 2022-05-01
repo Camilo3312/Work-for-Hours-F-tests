@@ -1,0 +1,78 @@
+.center_claim { 
+    max-width: var(--max-width-container);
+    margin: 2em auto;
+    padding: 0 20px;
+    
+    display: flex;
+    gap: 20px;
+}
+
+.info_service_claim {
+    width: 60%;
+}
+
+.header_info_service_claim {
+    padding: 30px;
+}
+
+.title_reason_claim {
+    margin: 0 0 10px 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icon_danger {
+    width: 35px;
+}
+
+.reason_claim {
+    font-family: var(--font-1);
+    color: var(--gray-text-1);
+    font-size: 25px;
+}
+
+.name_service_claim {
+    font-family: var(--font-1);
+    color: var(--gray-text-2);
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+
+.description_service_claim {
+    max-width: 400px;
+    font-family: var(--font-1);
+    color: var(--gray-text-3);
+    font-size: 18px;
+}
+
+.image_service_claim {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.service_claim {
+    width: 40%;
+    padding: 30px;
+}
+
+.title_form_claim {
+    margin: 0 0 10px 0;
+}
+
+.info_reason {  
+    font-family: var(--font-1);
+    color: var(--gray-text-3);
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 10px 0;
+}
+
+.form_claim {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}

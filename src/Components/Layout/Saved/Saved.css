@@ -1,0 +1,99 @@
+.table_services {
+    margin: 20px 0;
+}
+
+.row_table_services_header {
+    display: grid;
+	grid-template-columns: repeat(4, 1fr);
+    border-bottom: 2px solid #f0f0f0;
+
+    font-family: var(--font-1);
+    color: var(--gray-text-2);
+    font-size: 19px;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.body_table_services {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row_table_services {
+	display: grid;
+    height: 130px;
+	grid-template-columns: repeat(4, 1fr);
+
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f9f9f9;    
+} 
+
+.image_info_service_table {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info_service_table {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title_service_table {
+    font-family: var(--font-1);
+    color: var(--gray-text-1);
+    font-size: 24px;
+}
+
+.location_service_table {
+    font-family: var(--font-1);
+    color: var(--gray-text-3);
+    font-size: 19px;
+}
+
+.price_service_table {
+    font-family: var(--font-2);
+    color: var(--gray-text-3);
+    font-size: 19px;
+}
+
+.report_info_table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon_danger_table {
+    width: 30px;
+}
+
+.icon_checked_table {
+    width: 30px;
+
+}
+
+.value_report {
+    color: var(--gray-text-3);
+    font-size: 19px;
+
+}
+
+.value_not_report {
+    color: var(--gray-text-3);
+    font-size: 17px;
+    font-family: var(--font-1);
+}
+
+.operations_info_table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

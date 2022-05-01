@@ -1,0 +1,94 @@
+.center_main_index {
+    max-width: var(--max-width-container);
+    margin: 1em auto;
+    padding: 0 20px;
+}
+
+.services_index {
+    margin: 20px 0;
+}
+
+.container_pricipal_servieces {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+/* Popups */
+
+.center_popup_profile {
+    max-width: 900px;
+    height: 100%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.padding_info_user {
+    width: 50%;
+    /* padding: 20px; */
+}
+
+.title_form_my_profile {
+    padding: 25px 0 0 25px;
+}
+
+.image_profile {
+    width: 50%;
+    position: relative;
+} 
+
+.popup_profile {
+    width: 100%;
+    display: flex;
+}
+
+.padding_form_my_profile {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input_save_profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.change_image_my_profile {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(95, 95, 95, 0.74);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.change_image_my_profile:hover {
+    cursor: pointer;
+}
+
+.info_change_image {
+    color: #FFFF;
+    font-size: 20px;
+    font-family: var(--font-1);
+    margin: 1em 0 0 0;
+    width: 200px;
+    text-align: center;
+}
+
+.link_card_service {
+    text-decoration: none;
+}
+
+.title_index {
+    font-family: var(--font-1);
+    font-size: 1.5em;
+    color: var(--gray-text-2);
+    margin: 1.5em 0 0 0;
+}

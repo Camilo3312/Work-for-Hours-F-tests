@@ -1,0 +1,45 @@
+.contaner_message {
+    display: flex;
+}
+
+.card_message {
+    max-width: 500px;
+    border-radius: 5px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.message_card {
+    font-family: var(--font-2);
+    font-size: 19px;
+}
+
+.date_card {
+    font-size: 16px;
+}
+
+/* Location card */
+
+.in {
+    justify-content: flex-end;
+    
+}
+
+.in > .card_message {
+    background: var(--bg-blue);
+    align-items: flex-end;
+    color: #FFFF;
+}
+
+.out {
+    justify-content: flex-start;
+}
+
+.out > .card_message {
+    background: #f5f5f5;
+    align-items: flex-start;
+    color: var(--gray-text-2);
+}

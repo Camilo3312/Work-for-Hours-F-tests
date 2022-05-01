@@ -1,0 +1,85 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+/* Font 1 */
+@font-face {
+  font-family: 'coco gothic';
+  src: url(./Assets/Fonts/CocoGothic/CocoGothic_trial.ttf)
+  format("truetype");
+}
+
+:root {
+  /* Max width containers */
+  --max-width-container: 1450px; 
+
+  /* Backgrounds */
+  --bg-buttons: #289fa5;
+  --clr-titles: #303030;
+  --clr-paragrhap: #303030;
+  --color-one: #26c9d1;
+
+  --bg-ligth-blue: #F4F8FF;
+  --bg-blue: #14A2D6;
+
+  /* Borders */
+  --gray-border-1: 1px solid rgba(0, 0, 0, 0.034);
+
+  /* Shadows */
+  --gray-shadow-1: #9f9f9f33;
+
+  /* Text colos */
+  --gray-text-1: #494949;
+  --gray-text-2: #6D6D6D;
+  --gray-text-3: #858585;
+
+  /* Gradients */
+  --color-gradient-1: #616161;
+  --color-gradient-2: rgba(104, 104, 104, 0.459);
+
+  /* Border radius */
+  --border-radius-1: 10px;
+  --border-radius-2: 7px;
+
+  /* Fonts */
+  --font-1: 'coco gothic';
+  --font-2: 'Alata';
+} 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--bg-ligth-blue);  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Buttons */
+.input {
+  padding: 10px;
+  margin: 0 0 1.5em 0;
+  border-radius: 5px;
+  border: none;
+  background: #EBEBEB;
+  font-size: 17px;
+  outline: none;
+  transition: 40ms;
+  color: var(--clr-paragrhap);
+}
+
+.input:focus {
+  outline: 2px solid var(--bg-buttons);
+  background: #289fa510;
+}

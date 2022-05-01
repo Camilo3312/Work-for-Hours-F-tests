@@ -1,0 +1,36 @@
+.search {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+
+.icon_search {
+    width: 17px;
+    left: 14px;
+    position: absolute;
+    fill: var(--gray-text-3);
+} 
+
+.input_search {
+    width: 50%;
+    padding: 14px 14px 14px 40px;
+    border-radius: 25px;
+    background: #f9f9f9;
+    border: none;
+    outline: none;
+    color: var(--gray-text-2);
+
+    font-size: 18px;
+    font-family: 'coco gothic';
+}
+
+.input_search::placeholder {
+    color: var(--gray-text-3);
+}
+
+@media screen and (max-width: 480px) {
+    .input_search {
+        width: 100%;
+    }
+}

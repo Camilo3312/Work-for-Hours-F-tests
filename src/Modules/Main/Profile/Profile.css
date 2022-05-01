@@ -1,0 +1,99 @@
+.center_main_profile {
+    max-width: var(--max-width-container);
+    margin: 1.5em auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.informacion_user {
+    width: 20%;
+}
+
+.sticky_informacion_user {
+    position: sticky;
+    top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info_user_profile {
+    padding: 20px;
+}
+
+.name_user_profile {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    color: var(--gray-text-1);
+    font-family: var(--font-1);
+    font-weight: 700;
+}
+
+.subtitle_user_profile {
+    font-size: 17px;
+    margin: 0 0 7px 0;
+    color: var(--gray-text-2);
+    font-family: var(--font-1);
+}
+
+.user_data_profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon_email {
+    width: 15px;
+    fill: #b3b3b3;
+}
+
+.icon_phone {
+    width: 15px;
+    fill: #b3b3b3;
+}
+
+.email_user_profile {
+    color: var(--gray-text-3);
+}
+
+.phone_user_profile {
+    color: var(--gray-text-3);
+}
+
+.padding_calification_user_profile {
+    padding: 20px;
+}
+
+.calification_user_profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.value_calification_user {
+    font-size: 13px;
+    color: var(--gray-text-3);
+}
+
+.services_user {
+    width: 80%;
+}
+
+.subtilte_publications_user {
+    color: var(--gray-text-1);
+    font-family: var(--font-1);
+
+    padding: 30px 0  0 20px;
+}
+
+.padding_publications_profile {
+    padding: 0 10px 0 10px;
+}
+
+.publications_user_profile {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: flex-start;
+}

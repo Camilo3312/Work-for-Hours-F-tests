@@ -1,0 +1,22 @@
+.login {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.container_form_login {
+    width: 55%;
+}
+  
+.subtitle {
+    font-size: 2.5em;
+    margin: 0 0 1em 0;
+    color: var(--clr-titles);
+    font-weight: 700;
+}
+  
+.form_login {
+    display: flex;
+    flex-direction: column; 
+}

@@ -1,0 +1,21 @@
+.link_option {
+    text-decoration: none;
+}
+
+.container_link_option:hover {
+    cursor: pointer;
+}
+
+.text_link_option {
+    padding: 13px 25px;
+    
+    font-size: 18px;
+    color: var(--gray-text-2);
+    font-family: var(--font-1);
+    
+}
+
+.text_link_option:hover {
+    background: rgba(44, 45, 82, 0.041);
+    transition: .3s ease-in-out;
+}

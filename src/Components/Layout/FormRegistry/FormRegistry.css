@@ -1,0 +1,10 @@
+.form_register {
+    display: flex;
+    flex-direction: column;
+}
+  
+.form_register > label {
+    margin: 0 0 5px 0;
+    font-size: 17px;
+    color: var(--clr-titles);
+}

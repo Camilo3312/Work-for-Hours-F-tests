@@ -1,0 +1,13 @@
+.serch_engine {
+    background: #FFFF;
+}
+
+.center_serch_engine {
+    max-width: var(--max-width-container);
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.action_search { 
+    display: none;
+}

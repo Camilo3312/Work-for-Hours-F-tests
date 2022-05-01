@@ -1,0 +1,82 @@
+
+
+.card_service {
+    width: 220px;
+    height: 304px;
+    margin: 20px;
+    border-radius: var(--border-radius-1);
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header_card_service {
+    position: relative;
+    height: 100%;
+}
+
+.price_header_card {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    padding: 10px;
+    background: linear-gradient(
+        180deg, rgba(97,97,97,1) 16%, 
+        rgba(97,97,97,0.7763480392156863) 42%,
+        rgba(97,97,97,0.41780462184873945) 62%, 
+        rgba(97,97,97,0) 100%
+    );
+}
+
+.image_header_card {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.information_price_service {
+    font-family: var(--font-2);
+    font-size: 17px;
+    color: #FFFF;
+   
+}
+
+.body_card_service {
+    padding: 14px;
+    background: #f9f9f9;
+    font-family: 'coco gothic';
+}
+
+.location_card_service {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.icon_location_card_service {
+    fill: var(--gray-text-3);
+    width: 13px;
+    margin: 0 0 5px 0;
+}
+
+.location_body_card {
+    font-size: 15px;
+    color: var(--gray-text-3);
+}
+
+.title_body_card {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 18px;
+    text-overflow: ellipsis;
+    color: var(--gray-text-1);
+}
+
+@media screen and (max-width: 480px) {
+    .card_service {
+        width: calc(100% - 40px);
+    }
+}

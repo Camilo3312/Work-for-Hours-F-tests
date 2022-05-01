@@ -1,0 +1,60 @@
+.center_main_login {
+    max-width: 1100px;
+    margin: auto;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.information_login_app {
+    max-width: 450px;
+    color: #FFFF;
+}
+
+.title_info_login_app {
+    font-size: 2.5em;
+}
+
+.info_login {
+    font-family: var(--font-1);
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    line-height: 25px;
+}
+
+.padding_container_form_login {
+    width: 350px;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form_login {
+    margin: 2.5em 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link_recover_password {
+    text-decoration: none;
+    color: var(--bg-blue);
+    font-family: var(--font-1);
+}
+
+.info_register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-1);
+    color: var(--gray-text-2);
+}
+
+.link_registry {
+    text-decoration: none;
+    color: var(--bg-blue);
+}

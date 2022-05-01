@@ -1,0 +1,51 @@
+.card_service_search {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #f9f9f9;
+    display: flex;
+}
+
+.image_service_search > img {
+    width: 200px;
+    height: 100%;
+}
+
+.info_service_search {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header_service_search {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.name_service_search {
+    font-family: var(--font-1);
+    font-size: 2em;
+    color: var(--gray-text-2);
+    margin: 0 10px 0 0;
+}
+
+.location_service_search {
+    font-family: var(--font-1);
+    font-size: 1.2em;
+    color: var(--gray-text-3); 
+}
+
+.body_service_search {
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+}
+.price_service_search {
+    font-family: var(--font-2);
+    font-size: 1.5em;
+    color: var(--gray-text-3); 
+}
